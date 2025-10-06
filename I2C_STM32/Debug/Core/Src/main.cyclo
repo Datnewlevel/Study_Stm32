@@ -1,0 +1,9 @@
+../Core/Src/main.c:47:5:main	2
+../Core/Src/main.c:88:6:Run_I2C_Test	1
+../Core/Src/main.c:127:6:I2C_Scanner	4
+../Core/Src/main.c:156:19:EEPROM_Write	1
+../Core/Src/main.c:170:19:EEPROM_Read	1
+../Core/Src/main.c:184:6:SystemClock_Config	3
+../Core/Src/main.c:222:13:MX_I2C1_Init	2
+../Core/Src/main.c:242:13:MX_GPIO_Init	1
+../Core/Src/main.c:262:6:Error_Handler	1
