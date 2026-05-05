@@ -2,18 +2,18 @@
 
 A simple project demonstrating how to interface an OLED display with STM32F411CE microcontroller using I2C communication protocol and SSD1306 driver.
 
-## 📋 Overview
+## Overview
 
 This project shows how to connect and control a 128x64 OLED display using the SSD1306 driver. The display communicates with the STM32 microcontroller via I2C protocol, making it easy to display text, graphics, and animations.
 
-## 🔧 Hardware Requirements
+## Hardware Requirements
 
 - **STM32F411CE** microcontroller (Black Pill board)
 - **SSD1306 OLED Display** (128x64 pixels, I2C interface)
 - **Connecting wires**
 - **Breadboard** (optional)
 
-## 📱 OLED Display Specifications
+## OLED Display Specifications
 
 - **Resolution**: 128x64 pixels
 - **Driver**: SSD1306
@@ -21,7 +21,7 @@ This project shows how to connect and control a 128x64 OLED display using the SS
 - **Operating Voltage**: 3.3V - 5V
 - **Display Color**: Monochrome (Blue/White/Yellow)
 
-## 🔌 Pin Connections
+## Pin Connections
 
 | OLED Pin | STM32F411CE Pin | Description |
 |----------|-----------------|-------------|
@@ -41,16 +41,16 @@ OLED Display          STM32F411CE
 └─────────────┘      └─────────────┘
 ```
 
-## 🚀 Features
+## Features
 
-- ✅ Display text in different fonts
-- ✅ Draw basic shapes (lines, rectangles, circles)
-- ✅ Display images/bitmaps
-- ✅ Scroll text animations
-- ✅ Multiple font sizes support
-- ✅ Pixel-level control
+- Display text in different fonts
+- Draw basic shapes (lines, rectangles, circles)
+- Display images/bitmaps
+- Scroll text animations
+- Multiple font sizes support
+- Pixel-level control
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Test_oled/
@@ -70,7 +70,7 @@ Test_oled/
 └── README.md
 ```
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Hardware Setup
 1. Connect the OLED display to STM32 according to the pin diagram above
@@ -94,7 +94,7 @@ Test_oled/
 #define SSD1306_HEIGHT          64
 ```
 
-## 💻 Basic Usage
+## Basic Usage
 
 ### Initialize Display
 ```c
@@ -146,7 +146,7 @@ ssd1306_Line(0, 0, 127, 63, White);
 ssd1306_UpdateScreen();
 ```
 
-## 🎯 Example Output
+## Example Output
 
 The display will show:
 - Welcome message
@@ -154,7 +154,7 @@ The display will show:
 - Basic graphics demonstration
 - Font size examples
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
@@ -163,7 +163,7 @@ The display will show:
 | No display output | Check power supply and initialization |
 | I2C communication error | Verify SCL/SDA pin assignment |
 
-## 📚 API Reference
+## API Reference
 
 ### Core Functions
 - `ssd1306_Init()` - Initialize the display
@@ -181,16 +181,16 @@ The display will show:
 - `ssd1306_DrawRectangle(x, y, w, h, color)` - Draw rectangle
 - `ssd1306_DrawCircle(x, y, r, color)` - Draw circle
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to submit issues and enhancement requests!
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Happy Coding! 🚀**
+**Happy Coding!**
 
-*Made with ❤️ for STM32 learning*
+*Made for STM32 learning*
