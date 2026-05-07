@@ -31,6 +31,7 @@ A personal collection of hands-on exercises and peripheral testing projects buil
 | **UART_Intterrupt** | UART communication via interrupt | USART, NVIC |
 | **UART_Intterrupt_EX** | Extended UART interrupt handling | USART, NVIC |
 | **UART_DMA** | UART data transfer using DMA | USART, DMA |
+| **UART_with_STM32_and_ESP32** | Two-way UART communication between STM32F411CE and ESP32 at 115200 baud | USART, GPIO |
 
 ---
 
