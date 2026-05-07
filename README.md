@@ -21,16 +21,10 @@ A personal collection of hands-on exercises and peripheral testing projects buil
 | **Nhapnhay_LED** | LED blink patterns with timing control | GPIO, SysTick |
 | **ReadButton_State** | Read digital input from a push button | GPIO Input |
 | **GPIO_EXTI** | Trigger actions via external interrupt pin | GPIO, EXTI |
-| **Interrupts_Ngat_ngoai** | External interrupt handling practice | NVIC, EXTI |
-| **System_exception** | Explore HardFault and system exception behavior | NVIC, CoreDebug |
-| **MemorySTM32** | Understand flash/RAM memory layout and usage | Memory mapping |
 | **I2C_STM32** | I2C communication basics | I2C, HAL |
 | **Test_I2C_LCD** | Drive a character LCD over I2C | I2C, LCD |
 | **Test_oled** | Display graphics on a 128x64 SSD1306 OLED | I2C, SSD1306 |
 | **UART_Thuchanh** | UART send/receive practice | USART |
-| **UART_Intterrupt** | UART communication via interrupt | USART, NVIC |
-| **UART_Intterrupt_EX** | Extended UART interrupt handling | USART, NVIC |
-| **UART_DMA** | UART data transfer using DMA | USART, DMA |
 | **UART_with_STM32_and_ESP32** | Two-way UART communication between STM32F411CE and ESP32 at 115200 baud | USART, GPIO |
 
 ---
